@@ -4,4 +4,7 @@ sudo apt-get install -y build-essential git python3-pip libfreetype6-dev libxft-
 sudo pip install -U pip
 sudo mv dropbox_uploader.sh ~/.dbx.sh
 sudo mv .emacs ~/.emacs
-sudo mv bahsrc ~/.bashrc
+sudo mv bahsrc.bak ~/.bashrc
+sudo apt-get clean
+sudo apt-get autoremove
+
