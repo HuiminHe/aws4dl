@@ -7,4 +7,5 @@ sudo mv .emacs ~/.emacs
 sudo mv bahsrc.bak ~/.bashrc
 sudo apt-get clean
 sudo apt-get autoremove
+sudo echo -e "\nalias dbx='bash ~/.dbx.sh'\n" >> ~/.bashrc
 
