@@ -24,7 +24,7 @@ export CUDA_ROOT=/usr/local/cuda
 export PATH=$PATH:$CUDA_ROOT/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CUDA_ROOT/lib64
 
-sudo apt-get install -y build-essential git python3-pip libfreetype6-dev libxft-dev libncurses-dev libopenblas-dev gfortran python3-matplotlib libblas-dev liblapack-dev libatlas-base-dev python3-dev python3-pydot linux-headers-generic linux-image-extra-virtual unzip python3-numpy swig python3-pandas python3-sklearn unzip wget pkg-config zip g++ zlib1g-dev libcurl3-dev
+sudo apt-get install -y build-essential git python3-pip libfreetype6-dev libxft-dev libncurses-dev libopenblas-dev gfortran python3-matplotlib libblas-dev liblapack-dev libatlas-base-dev python3-dev linux-headers-generic linux-image-extra-virtual unzip python3-numpy swig python3-pandas python3-sklearn unzip wget pkg-config zip g++ zlib1g-dev libcurl3-dev
 
 ## install torch
 git clone https://github.com/torch/distro.git ~/torch --recursive
