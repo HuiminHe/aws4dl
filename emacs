@@ -27,6 +27,3 @@
 
 (global-linum-mode 1)
 (set-face-foreground 'linum "#4444aa")
-
-(add-hook 'python-mode-hook 'jedi:setup)
-(setq jedi:complete-on-dot t)
