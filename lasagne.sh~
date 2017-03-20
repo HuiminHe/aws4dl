@@ -1,0 +1,1 @@
+echo -e "[global]\nfloatX = float32\ndevice = gpu\n"
