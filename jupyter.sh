@@ -18,5 +18,5 @@ read ans
 if [ $ans == "y" ]; then 
     cat jupyter.config >> ~/.jupyter/jupyter_notebook_config.py
 fi
-echo -e "\naliasing jn='sudo jupyter notebook'\n" >> ~/.bashrc
+echo -e "\nalias jn='sudo jupyter notebook'\n" >> ~/.bashrc
 echo "Jupyter is configured"
