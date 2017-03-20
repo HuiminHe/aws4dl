@@ -6,7 +6,8 @@ sudo apt-get dist-upgrade
 sudo apt-get install -y gcc g++ gfortran build-essential git wget linux-image-generic libopenblas-dev python3-dev python3-pip python3-nose python3-numpy python3-scipy
 sudo pip3 install --upgrade pip
 #install the bleeding-edge version of Theano
-cd ~
-sudo pip3 install --upgrade --no-deps git+git://github.com/Theano/Theano.git
-echo -e "[global]\nfloatX = float32\ndevice = gpu\n" >> ~/.theanorc
+pip install --upgrade https://github.com/Theano/Theano/archive/master.zip
+pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip
+
+echo -e "[global]\nfloatX = float32\ndev\nice = gpu\n [cuda]\nroot = /usr/local/cuda-8.0" >> ~/.theanorc
 
