@@ -9,5 +9,9 @@ sudo pip3 install --upgrade pip
 pip install --upgrade https://github.com/Theano/Theano/archive/master.zip
 pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip
 
-echo -e "[global]\nfloatX = float32\ndev\nice = gpu\n [cuda]\nroot = /usr/local/cuda-8.0" >> ~/.theanorc
-
+$FNAME="~/.theanorc"
+if test -e "$FNAME"; then
+    echo -e "[global]\nfloatX = float32\ndev\nice = gpu\n [cuda]\nroot = /usr/local/cuda-8.0" > ~/.theanorc
+else
+    echo "theanorc already exists"
+fi
