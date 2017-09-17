@@ -9,8 +9,6 @@ sudo bash ~/.dbx.sh download setup/libcudnn5_5.1.5-1+cuda8.0_amd64.deb
 sudo bash ~/.dbx.sh download setup/libcudnn5-dev_5.1.5-1+cuda8.0_amd64.deb
 sudo dpkg -i libcudnn5_5.1.5-1+cuda8.0_amd64.deb
 sudo dpkg -i libcudnn5-dev_5.1.5-1+cuda8.0_amd64.deb
-rm libcudnn5_5.1.5-1+cuda8.0_amd64.deb
-rm libcudnn5-dev_5.1.5-1+cuda8.0_amd64.deb
 #configure the env
 echo -e "export CUDA_HOME=/usr/local/cuda" >> ~/.bashrc
 echo -e "export CUDA_ROOT=/usr/local/cuda" >> ~/.bashrc
