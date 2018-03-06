@@ -1,6 +1,6 @@
 c = get_config()
 c.IPKernelApp.pylab = 'inline'
-c.NotebookApp.certfile = u'/home/ubuntu/certs/mycert.pem'
+c.NotebookApp.certfile = u'/home/ubuntu/.ssl/cert.pem'
 c.NotebookApp.ip = '*'
 c.NotebookApp.open_browser = False
 # Your password below will be whatever you copied earlier
