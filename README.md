@@ -1,12 +1,14 @@
 # awsInit
-Bash script to initialize a aws server for deep learning.
-It features with:
+------
+Bash script to initialize a Ubuntu server for deep learning.
+
+featured with:
  - Anaconda-py3-x64
- - Theano(bleeding-edge)
+ - Tensorflow/Pytorch
  - dropbox-tool
- - home-made emacs setup
- - home-made bashrc setup
- - home-made git setup(under implementation)
+ - emacs setup
+ - bashrc setup
+ - git setup(under implementation)
  
 
 
